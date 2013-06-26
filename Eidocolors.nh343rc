@@ -4,6 +4,7 @@
 # eidocolors 1.14.0, $date
 # last minor:
 #   fix forgotten spell (thanks rsarson)
+#   additional menus that shouldn't be colored (thanks rsarson)
 
 OPTIONS=menucolors
 
@@ -203,9 +204,15 @@ MENUCOLOR="\{U\}"=underline
 MENUCOLOR="\{I\}"=inverse
 MENUCOLOR="\{K\}"=blink
 
-########################
-# LOOT/APPLY CONTAINER #
-########################
+######################
+# FIX ORDINARY MENUS #
+######################
 MENUCOLOR=" is empty. Do what?"=none
 MENUCOLOR="Put something into .*"=none
 MENUCOLOR="Take something out of .*"=none
+
+MENUCOLOR="unicorn horn.*(Unskilled|Basic|Skilled|Expert)"=none
+MENUCOLOR="Info on what a given key does."=none
+MENUCOLOR="Full list of keyboard commands."=none
+MENUCOLOR="altkeyhandler"=none
+MENUCOLOR="fruit.*\["=none
