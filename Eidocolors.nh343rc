@@ -1,10 +1,9 @@
 # I encourage people to use my menucolors! It's why I have a version and date.
 # And a repository! https://github.com/sartak/Eidocolors
 
-# eidocolors 1.13.0, 19:04 13 Jun 2013
+# eidocolors 1.14.0, $date
 # last minor:
-#   fix scrolls of charging, etc
-#   remove some crud
+#   fix forgotten spell (thanks rsarson)
 
 OPTIONS=menucolors
 
@@ -166,9 +165,9 @@ MENUCOLOR=" 9[0-9]%"=red
 MENUCOLOR=" 100%"=red
 
 ###################
-# FORGOTTEN SPELL # thanks, Stevie
+# FORGOTTEN SPELL # thanks, Stevie, rsarson
 ###################
-MENUCOLOR="[a-zA-Z] - [a-zA-Z ]+ [0-9]\*   [a-z]+ +[0-9]+%"=magenta
+MENUCOLOR="[a-zA-Z ]+ [0-9]\*   [a-z]+ +[0-9]+%"=magenta
 
 ############
 # #ENHANCE # thanks itsblah
