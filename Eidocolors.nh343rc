@@ -5,6 +5,8 @@
 # last minor:
 #   fix forgotten spell (thanks rsarson)
 #   additional menus that shouldn't be colored (thanks rsarson)
+#   improve food colors (Eidolos)
+#   hilight cursed tin of spinach as red
 
 OPTIONS=menucolors
 
@@ -41,14 +43,14 @@ MENUCOLOR=" potions? called water named (unholy|cursed|C)($| )"=orange
 #################
 # vegan
 MENUCOLOR="(food |cram |K-|C-)ration|gunyoki"=green&bold
-MENUCOLOR="lembas wafer|melon|carrot|tin .* spinach"=green&bold
+MENUCOLOR="lembas wafer|melon|carrot|tins? .* spinach"=green&bold
 MENUCOLOR=" oranges?( named.*)?$"=green&bold # avoid coloring orange DSM
 MENUCOLOR=" pears?( named.*)?$"=green&bold # avoid coloring pearl rings
-MENUCOLOR=" apple|banana|kelp|eucalyptus|garlic|wolfsbane"=green&bold
-MENUCOLOR=" slime mold| brain"=green&bold  ## YOUR FRUIT HERE
-MENUCOLOR="(tin of )?(gelatinous cube|acid blob|quivering blob)( corpse)?"=green&bold
-MENUCOLOR="(tin of )?(blue|spotted|ochre) jelly( corpse)?"=green&bold
-MENUCOLOR="(tin of )?lichen|shrieker|violet fungus|(brown|yellow|green|red) mold( corpse)?"=green&bold
+MENUCOLOR=" (apple|banana|kelp|eucalyptus|garlic|wolfsbane)"=green&bold
+MENUCOLOR=" (slime mold|brain)"=green&bold  ## YOUR FRUIT HERE
+MENUCOLOR="(tins? of )?(gelatinous cube|acid blob|quivering blob)( corpse)?"=green&bold
+MENUCOLOR="(tins? of )?(blue|spotted|ochre) jelly( corpse)?"=green&bold
+MENUCOLOR="(tins? of )?lichen|shrieker|violet fungus|(brown|yellow|green|red) mold( corpse)?"=green&bold
 
 # vegetarian
 MENUCOLOR="egg|pancake|fortune cookie|candy bar|royal jelly|cream pie|candle"=green
@@ -126,6 +128,8 @@ MENUCOLOR=" cursed.* bag .* holding"=red&bold
 MENUCOLOR=" cursed.* luck(stone)?($| )"=red&bold
 MENUCOLOR=" cursed.* unicorn horn"=red&bold
 MENUCOLOR=" cursed.* (Bell of Opening|silver bell|Candelabrum of Invocation|candelabrum|Book of the Dead|papyrus spellbook)"=red&bold
+MENUCOLOR="cursed tins? .* spinach|tins? .* spinach .* (cursed|C($| ))"=red
+
 
 #############
 # BAD STUFF #
