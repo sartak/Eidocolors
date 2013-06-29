@@ -1,7 +1,7 @@
 # I encourage people to use my menucolors! It's why I have a version and date.
 # And a repository! https://github.com/sartak/Eidocolors
 
-# eidocolors 1.14.0, $date
+# eidocolors 1.14.0, 2013-06-29
 # last minor:
 #   fix forgotten spell (thanks rsarson)
 #   additional menus that shouldn't be colored (thanks rsarson)
@@ -129,7 +129,6 @@ MENUCOLOR=" cursed.* luck(stone)?($| )"=red&bold
 MENUCOLOR=" cursed.* unicorn horn"=red&bold
 MENUCOLOR=" cursed.* (Bell of Opening|silver bell|Candelabrum of Invocation|candelabrum|Book of the Dead|papyrus spellbook)"=red&bold
 MENUCOLOR="cursed tins? .* spinach|tins? .* spinach .* (cursed|C($| ))"=red
-
 
 #############
 # BAD STUFF #
